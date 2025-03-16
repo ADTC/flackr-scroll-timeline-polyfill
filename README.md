@@ -99,7 +99,8 @@ In Safari (macOS), a developer feature flag called "Scroll-driven Animations" ca
 
 This feature flag reports to feature detection that the scroll-driven animations feature is natively available in the browser, effectively disabling the polyfill. However, the developer preview version of the feature doesn't work correctly, causing broken animations.
 
-If this is your case, disable the feature flag and reload your web page. The polyfill will apply the animations.
+> [!IMPORTANT]
+> If this is your case, disable the feature flag and reload your web page. The polyfill will apply the animations.
 
 ### Media Query for Reduced Motion
 
