@@ -5,7 +5,8 @@ A polyfill of ScrollTimeline and ViewTimeline as defined by [the CSS WG spec](ht
 - [View a cool demo showing its usage.](https://flackr.github.io/scroll-timeline/demo/parallax/)
 - [Track the browser support for native Scroll-driven Animations.](https://caniuse.com/?search=animation-timeline)
 
-When the scroll-driven animations feature is widely available as a native feature, this polyfill may not be necessary except to support older versions of browsers.
+> [!TIP]
+> When the scroll-driven animations feature is widely available as a native feature, this polyfill may not be necessary except to support older versions of browsers.
 
 ## Installation
 
@@ -131,9 +132,7 @@ Instead, override the `animation` property when reduced motion is preferred:
 
 ### Dynamic CSS classes
 
-Using Javascript to dynamically apply CSS classes in order to apply a scroll-driven anmiation will not work with the polyfill.
-
-This is because the polyfill needs to read the static classes and the CSS to track the DOM elements that should have the animations.
+Using Javascript to dynamically apply CSS classes in order to apply a scroll-driven anmiation will not work with the polyfill. This is because the polyfill needs to read the static classes and the CSS to track the DOM elements that should have the animations.
 
 Instead, dynamically attach overriding classes to disable the statically applied animation:
 
