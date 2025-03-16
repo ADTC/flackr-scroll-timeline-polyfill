@@ -86,6 +86,13 @@ Use `animation-timeline` property with `scroll` or `view` to define animations:
 
 ## Known Limitations
 
+### Loading Demos or Running Locally
+
+Ensure that the demo project or your project is built and/or served using an HTTP server. For example, you may need to execute `npm run build` and then `npm run dev`. You may also use other methods like a Python3 HTTP server, WAMP server, Nginx or `npx http-server`.
+
+> [!NOTE]
+> You won't be able to use the polyfill if you open the `.html` file directly in a file browser. This is because the polyfill needs to be able to fetch the CSS files in order to read them. The browser doesn't allow this from `file:///` origins as that would allow reading other files from your system.
+
 ### Safari Feature Flag
 
 In Safari (macOS), a developer feature flag called "Scroll-driven Animations" can be enabled in the Feature Flags panel. (This panel is shown if "Show features for web developers" advanced option is checked.)
