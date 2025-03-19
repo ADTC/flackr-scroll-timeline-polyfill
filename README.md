@@ -173,4 +173,10 @@ Instead, use regular CSS classes. You can use CSS features like variables to app
 
 ## Contributing
 
-Thank you for choosing to contribute to this project. Please see our [contribution guidelines](/CONTRIBUTING.md) to learn how you can help.
+Thank you for choosing to contribute fixes and improvements to our project.
+
+Please see our [contribution guidelines](/CONTRIBUTING.md) page to:
+- Sign the Contributor License Agreement.
+- Understand the code review process.
+- Read the open source community guidelines.
+- Learn how to develop and test your changes.
